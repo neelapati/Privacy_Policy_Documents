@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | PrimeShield Attendance</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-gradient: radial-gradient(circle at 50% 0%, #1e293b 0%, #0f172a 60%, #020617 100%);
+      --card-bg: rgba(30, 41, 59, 0.4);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --primary: #2563eb;
+      --secondary: #10b981;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent-glow: rgba(37, 99, 235, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+      position: relative;
+    }
+
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      border-radius: 20px;
+      background: rgba(37, 99, 235, 0.1);
+      border: 1px solid rgba(37, 99, 235, 0.3);
+      box-shadow: 0 0 20px var(--accent-glow);
+      margin-bottom: 16px;
+    }
+
+    .logo-icon {
+      font-size: 32px;
+      line-height: 1;
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .last-updated {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .policy-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 24px;
+      backdrop-filter: blur(12px);
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .policy-card::before {
+      content: '';
+      position: absolute;
+      top: -150px;
+      left: -150px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    section:last-of-type {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 4px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    li::before {
+      content: "•";
+      color: var(--primary);
+      font-weight: bold;
+      position: absolute;
+      left: 6px;
+      top: 0;
+    }
+
+    /* Highlight box for Google Reviewers */
+    .disclosure-box {
+      background: rgba(37, 99, 235, 0.08);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 16px 16px 0;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .disclosure-box h3 {
+      font-family: 'Outfit', sans-serif;
+      color: #ffffff;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .disclosure-box p {
+      margin-bottom: 8px;
+    }
+
+    .disclosure-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #3b82f6;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <span class="logo-icon">🛡️</span>
+      </div>
+      <h1>PrimeShield Attendance</h1>
+      <div class="last-updated">Privacy Policy | Last Updated: July 2026</div>
+    </header>
+
+    <main class="policy-card">
+      
+      <section>
+        <h2>1. Introduction</h2>
+        <p>Welcome to PrimeShield Attendance ("we", "our", "us"). We are committed to protecting the privacy of our workforce users. This Privacy Policy describes how we collect, use, store, and share information when you use our smart attendance and workforce management application (the "App").</p>
+      </section>
+
+      <section>
+        <h2>2. Information Collection</h2>
+        <p>To provide high-fidelity attendance records, geofence compliance checks, and shift route verification, we collect the following categories of information:</p>
+        <ul>
+          <li><strong>Location Data (Background & Foreground):</strong> We collect precise real-time geographic location coordinates (GPS coordinates) of your device.</li>
+          <li><strong>Device Information:</strong> We log battery percentage, network connectivity type (e.g. WiFi, Mobile data), and device model to ensure secure sync operations and verify device compliance.</li>
+          <li><strong>User Profiles:</strong> Account registration data including your name, corporate email address, employee ID, department allocation, manager name, and profile avatar.</li>
+        </ul>
+      </section>
+
+      <!-- Google Play Store Prominent Location Disclosure Section -->
+      <section class="disclosure-box">
+        <h3>📍 Prominent Location & Background Tracking Disclosure</h3>
+        <p>PrimeShield Attendance collects precise location coordinates to verify geofence boundaries for smart check-ins and to record continuous shift routes for surveyors, sales representatives, and other field workforce personnel.</p>
+        <p><strong>Background Location access is required.</strong> The App collects this location data even when the App is closed, minimized, or when your phone screen is locked. Location tracking is active <strong>ONLY</strong> during your active working hours (the time elapsed between your manual Check-In and Check-Out).</p>
+        <p>Tracking stops completely when you perform a manual Check-Out at the end of your shift.</p>
+      </section>
+
+      <section>
+        <h2>3. How We Use Your Information</h2>
+        <p>We use the collected information to power the App's core services, including:</p>
+        <ul>
+          <li><strong>Geofence Verification:</strong> Auditing check-in coordinates against your designated office geofence borders.</li>
+          <li><strong>Active Shift Routing:</strong> Constructing the timeline route history of field visits to verify visit locations.</li>
+          <li><strong>Compliance Auditing:</strong> Reviewing early departures, late check-ins, stationary alerts, or duplicate check-in sessions.</li>
+          <li><strong>Push Notifications:</strong> Delivering shift schedule updates and leave approvals directly to your device.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Data Sharing & Security</h2>
+        <p>Your privacy is paramount. We do not sell or lease your data to third parties. Information sharing is restricted as follows:</p>
+        <ul>
+          <li><strong>Internal Management Visibility:</strong> Your attendance logs, shift tracking, and leave requests are visible only to you and your designated company managers or system administrators.</li>
+          <li><strong>Firestore Backend:</strong> Data is securely transmitted and stored using Cloud Firestore database architecture, backed by robust security access rules ensuring only authenticated corporate sessions can read/write data.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Your Rights and Choices</h2>
+        <p>You retain full control over your profile and permissions. You have the right to:</p>
+        <ul>
+          <li><strong>Manage Location Permissions:</strong> Revoke foreground or background location permissions at any time through your device system settings. Note that disabling location will prevent geofenced check-ins and trigger an automated checkout safety alert.</li>
+          <li><strong>Request Deletion:</strong> Ask your company administrator or write to us to request complete deletion of your profile history and historical attendance logs.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by publishing the updated policy on this page and sending an alert within the App.</p>
+      </section>
+
+      <section>
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, compliance inquiries, or feedback regarding this Privacy Policy, please contact our support team at <a href="mailto:support@primeshield.com">support@primeshield.com</a>.</p>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 PrimeShield Attendance. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
