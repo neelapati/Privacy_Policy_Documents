@@ -164,8 +164,8 @@
         <h3>A. Location Access (<code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code>)</h3>
         <p>Used solely to determine your initial location on the map view when opening the App. Coordinates are processed entirely in memory on your device and are never sent externally.</p>
 
-        <h3>B. Mock Location (Android Developer Options)</h3>
-        <p>Android requires selecting Fake GPS Location under Developer Options ("Select mock location app") to allow injecting mock coordinates into the device system.</p>
+        <h3>B. Mock Location (<code>ACCESS_MOCK_LOCATION</code> & Developer Options)</h3>
+        <p>Android requires declaring <code>ACCESS_MOCK_LOCATION</code> and selecting Fake GPS Location under Developer Options ("Select mock location app") to allow injecting mock coordinates into the device system.</p>
 
         <h3>C. Foreground Service (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_LOCATION</code>, <code>POST_NOTIFICATIONS</code>)</h3>
         <p>Required to maintain location simulation while the screen is locked or while using other applications. A persistent system notification is displayed showing the active simulation status and offering a one-tap Stop button.</p>
